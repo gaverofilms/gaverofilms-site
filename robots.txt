@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gaverofilms.github.io/gaverofilms-site/sitemap.xml
