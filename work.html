@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Selected commercial films, documentaries, and brand stories from Gavero Films, an independent creative film studio."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Selected Work — Gavero Films</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="work.css" />
+  </head>
+  <body class="work-page">
+    <header class="site-header">
+      <a class="wordmark" href="index.html#top" aria-label="gaverofilms home">gavero<span>films</span></a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="work.html" aria-current="page">Work</a>
+        <a href="index.html#approach">Approach</a>
+        <a href="index.html#about">About</a>
+        <a class="nav-contact" href="contact.html">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="work-intro" id="work-start" aria-labelledby="work-title">
+        <div class="work-intro-top">
+          <p class="work-eyebrow"><span></span> Gavero Films &nbsp; / &nbsp; Selected work</p>
+          <p class="work-index">INDEPENDENT FILM STUDIO &nbsp; · &nbsp; EST. IN CURIOSITY</p>
+        </div>
+        <div class="work-title-row">
+          <h1 id="work-title">A few things<br />we've <em>made.</em></h1>
+          <p class="work-deck">Different people, places, and perspectives.<br />All worth a closer look.</p>
+        </div>
+        <div class="work-toolbar">
+          <p class="work-count"><span id="visible-count">06</span> FILMS &nbsp; / &nbsp; A GROWING COLLECTION</p>
+          <div class="work-filters" role="group" aria-label="Filter work by type">
+            <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All work</button>
+            <button class="filter-button" type="button" data-filter="commercial" aria-pressed="false">Commercial</button>
+            <button class="filter-button" type="button" data-filter="documentary" aria-pressed="false">Documentary</button>
+            <div class="filter-dropdown">
+              <button class="filter-button filter-dropdown-toggle" type="button" data-filter="stories" aria-haspopup="true" aria-expanded="false" aria-controls="stories-menu" aria-pressed="false">
+                Stories <span class="dropdown-caret" aria-hidden="true">⌄</span>
+              </button>
+              <div class="filter-dropdown-menu" id="stories-menu" role="group" aria-label="Filter story projects">
+                <button class="filter-button" type="button" data-filter="brand" aria-pressed="false">Brand Stories</button>
+                <button class="filter-button" type="button" data-filter="origin" aria-pressed="false">Origin Stories</button>
+                <button class="filter-button" type="button" data-filter="person" aria-pressed="false">Personal Stories</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio" aria-label="Selected film projects">
+        <div class="portfolio-grid" id="portfolio-grid">
+          <article class="portfolio-card card-tall" data-category="commercial">
+            <a class="portfolio-link" href="mailto:hello@gaverofilms.com?subject=Tell%20me%20about%20your%20work">
+              <div class="portfolio-image image-coast" role="img" aria-label="Mountain road winding into the distance at golden hour">
+                <span class="image-counter">GF—001</span>
+                <span class="image-open" aria-hidden="true">↗</span>
+              </div>
+              <div class="portfolio-meta">
+                <div><h2>Somewhere, slowly</h2><p>COMMERCIAL &nbsp; / &nbsp; FILM</p></div>
+                <span class="meta-year">01</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="portfolio-card card-offset" data-category="documentary person">
+            <a class="portfolio-link" href="mailto:hello@gaverofilms.com?subject=Tell%20me%20about%20your%20work">
+              <div class="portfolio-image image-portrait" role="img" aria-label="A candid portrait in soft, natural light">
+                <span class="image-counter">GF—002</span>
+                <span class="image-open" aria-hidden="true">↗</span>
+              </div>
+              <div class="portfolio-meta">
+                <div><h2>People of the tide</h2><p>DOCUMENTARY &nbsp; / &nbsp; PERSONAL STORY</p></div>
+                <span class="meta-year">02</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="portfolio-card card-offset-small" data-category="brand origin">
+            <a class="portfolio-link" href="mailto:hello@gaverofilms.com?subject=Tell%20me%20about%20your%20work">
+              <div class="portfolio-image image-studio" role="img" aria-label="A cinematographer at work behind a film camera">
+                <span class="image-counter">GF—003</span>
+                <span class="image-open" aria-hidden="true">↗</span>
+              </div>
+              <div class="portfolio-meta">
+                <div><h2>Made by hand</h2><p>BRAND STORY &nbsp; / &nbsp; ORIGIN</p></div>
+                <span class="meta-year">03</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="portfolio-card card-wide" data-category="commercial">
+            <a class="portfolio-link" href="mailto:hello@gaverofilms.com?subject=Tell%20me%20about%20your%20work">
+              <div class="portfolio-image image-landscape" role="img" aria-label="The last light falling across an open landscape">
+                <span class="image-counter">GF—004</span>
+                <span class="image-open" aria-hidden="true">↗</span>
+              </div>
+              <div class="portfolio-meta">
+                <div><h2>Light finds a way</h2><p>COMMERCIAL &nbsp; / &nbsp; CAMPAIGN</p></div>
+                <span class="meta-year">04</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="portfolio-card card-offset" data-category="documentary">
+            <a class="portfolio-link" href="mailto:hello@gaverofilms.com?subject=Tell%20me%20about%20your%20work">
+              <div class="portfolio-image image-music" role="img" aria-label="A musician performing on a dimly lit stage">
+                <span class="image-counter">GF—005</span>
+                <span class="image-open" aria-hidden="true">↗</span>
+              </div>
+              <div class="portfolio-meta">
+                <div><h2>Between the notes</h2><p>DOCUMENTARY &nbsp; / &nbsp; MUSIC</p></div>
+                <span class="meta-year">05</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="portfolio-card card-last" data-category="brand">
+            <a class="portfolio-link" href="mailto:hello@gaverofilms.com?subject=Tell%20me%20about%20your%20work">
+              <div class="portfolio-image image-water" role="img" aria-label="Quiet turquoise water on an empty coastline">
+                <span class="image-counter">GF—006</span>
+                <span class="image-open" aria-hidden="true">↗</span>
+              </div>
+              <div class="portfolio-meta">
+                <div><h2>A quieter kind</h2><p>BRAND STORY &nbsp; / &nbsp; PLACE</p></div>
+                <span class="meta-year">06</span>
+              </div>
+            </a>
+          </article>
+        </div>
+        <p class="portfolio-note">A closer look at any of these? <a href="mailto:hello@gaverofilms.com">Ask us about the work <span aria-hidden="true">↗</span></a></p>
+      </section>
+
+      <a class="page-continuation work-continuation" href="contact.html#contact-start">
+        <span class="continuation-label">NEXT &nbsp; / &nbsp; START A CONVERSATION</span>
+        <span class="continuation-title">Tell us what you're imagining <span aria-hidden="true">↓</span></span>
+      </a>
+
+      <footer class="work-footer">
+        <div class="work-footer-callout">
+          <p class="work-eyebrow">Have a good one?</p>
+          <h2>Let's make<br />it <em>mean something.</em></h2>
+          <a class="work-contact" href="contact.html#contact-start">Start a conversation <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="work-footer-bottom">
+          <a class="wordmark" href="index.html#top">gavero<span>films</span></a>
+          <a href="index.html">Back to the studio ↑</a>
+          <span>© <span id="year"></span> Gavero Films</span>
+        </div>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+    <script src="work.js"></script>
+  </body>
+</html>
